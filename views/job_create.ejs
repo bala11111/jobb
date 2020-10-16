@@ -1,0 +1,49 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <h1>Enter your job details</h1>
+        <form action="/users/create_job" method="POST">
+            <div id="one_job">
+                <label for="jn">Job Role</label>
+                <input type="text" name="job_role" placeholder="Job Role" id="jn">
+            </div>
+
+            <div id="one_job">
+                <label for="func">Function</label>
+                <textarea name="function" id="func" cols="12" rows="3" placeholder="Function"></textarea>
+            </div>
+            <div id="one_job">
+                <label for="func">Sub Function</label>
+                <textarea name="sub_function" id="func" cols="12" rows="3" placeholder="Function"></textarea>
+            </div>  
+            <div id="one_job">
+                <label for="company">Company</label>
+                <input type="text" name="company" id="company" placeholder="Company Name">
+            </div>
+            <div id="one_job">
+                <label for="core">Top 3 core skills</label>
+                <input type="text" name="cs1" id="core" placeholder="Core skill 1">
+                <input type="text" name="cs2" id="core" placeholder="Core skill 2">
+                <input type="text" name="cs3" id="core" placeholder="Core skill 3">
+            </div>          
+            <div id="one_job">
+                <label for="soft">Top 3 soft skills</label>
+                <input type="text" name="ss1" id="soft" placeholder="Soft skill 1">
+                <input type="text" name="ss2" id="soft" placeholder="Soft skill 2">
+                <input type="text" name="ss3" id="soft" placeholder="Soft skill 3">
+            </div>
+            <div id="one_job">
+                <label for="location">Location</label>
+                <input type="text" name="location" id="location" placeholder="Location">
+            </div>
+            <div id="one_job">
+                <label for="pin">Pin code</label>
+                <input type="number" name="pin" id="pin" placeholder="Pincode">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

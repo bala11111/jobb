@@ -1,0 +1,26 @@
+body{
+    form{
+        display: flex;
+        flex-direction: column;
+
+        #one_job{
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(105, 159, 221);
+            margin-bottom: 10px;
+            border: 2px solid black;
+            padding: 4px;
+            position: relative;
+            padding : 10px;
+            input{
+                margin-right: 10px;
+                padding: 5px;
+            }
+            label{
+                margin-right: 30px;
+            }
+
+        }
+
+    }
+}

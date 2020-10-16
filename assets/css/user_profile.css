@@ -1,0 +1,49 @@
+#head {
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  height: 10vh;
+  left: 0%;
+  background-color: #020a08;
+  display: flex;
+  align-items: center; }
+  #head #job-search-bar {
+    width: 250px;
+    height: 30px;
+    background-color: #f1f0ee;
+    border-radius: 20px;
+    position: relative;
+    left: 40%; }
+    #head #job-search-bar input {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      padding: 4px; }
+  #head #create_job {
+    background-color: inherit;
+    position: relative;
+    left: 60%;
+    width: auto;
+    height: auto; }
+    #head #create_job button {
+      padding: 5px;
+      margin-right: 10px; }
+
+#jobs {
+  width: 80vw;
+  height: 10vh;
+  background-color: #ccc4c4;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  #jobs h1 {
+    margin: 0;
+    padding: 0;
+    margin-right: 150px; }
+  #jobs h3 {
+    margin-right: 90px; }
+  #jobs button {
+    width: 100px;
+    height: 30px; }

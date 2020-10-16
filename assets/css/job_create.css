@@ -1,0 +1,17 @@
+body form {
+  display: flex;
+  flex-direction: column; }
+  body form #one_job {
+    display: flex;
+    flex-direction: row;
+    background-color: #699fdd;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    padding: 4px;
+    position: relative;
+    padding: 10px; }
+    body form #one_job input {
+      margin-right: 10px;
+      padding: 5px; }
+    body form #one_job label {
+      margin-right: 30px; }

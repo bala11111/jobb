@@ -1,0 +1,42 @@
+<html>
+    <head><title>profile</title>
+
+        
+    </head>
+
+    <body>
+        <div id="head">
+            <div id="job-search-bar">
+                <input type="text" placeholder="please enter your job name">
+            </div>
+
+            <div id="create_job">
+                <Button><a href="/users/job">Create Job</a></Button>
+                <button><a href="/users/sign-out">Sign Out</a></button>
+            </div>
+        </div>
+
+
+        <% for(let i=0;i<jobs.length;i++){%>
+            
+            <div id="jobs">
+                <h1><%= jobs[i].job_role%></h1>
+
+                <h3>
+                    Job Function : <%= jobs[i].function%>
+                </h3>
+
+                <h3>
+                    Company : <%= jobs[i].company%>
+                </h3>
+
+                <h3>
+                    Location : <%= jobs[i].location%>
+                </h3>
+
+                <button>Apply</button>
+            </div>
+         
+            <%}%>
+    </body>
+</html>
