@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 // creating and establishing connection to database
-mongoose.connect('mongodb://localhost/job_development');
+const url = process.env.MONGO_URL || 'mongodb://localhost/job_development';
+mongoose.connect(url);
 
 const db = mongoose.connection;
 
