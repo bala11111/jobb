@@ -4,7 +4,7 @@
   "description": "Job search",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +33,7 @@
     "mongoose": "^5.10.9",
     "node-fetch": "^2.6.1",
     "node-sass-middleware": "^0.11.0",
+    "nodemon": "^2.0.5",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   }
