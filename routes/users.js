@@ -23,6 +23,7 @@ router.post('/create-session', passport.authenticate(
 
 router.get('/sign-out', usersController.destroySession);
 router.get('/job',usersController.goJob);
+router.get('/expert',usersController.expert);
 router.post('/create_job',usersController.create_job);
 
 module.exports = router;

@@ -7,6 +7,10 @@
   background-color: #020a08;
   display: flex;
   align-items: center; }
+  #head img {
+    width: 80px;
+    height: 100%;
+    background-color: inherit; }
   #head #job-search-bar {
     width: 250px;
     height: 30px;
@@ -18,7 +22,7 @@
       width: 100%;
       height: 100%;
       border-radius: 20px;
-      padding: 4px; }
+      padding: 10px; }
   #head #create_job {
     background-color: inherit;
     position: relative;

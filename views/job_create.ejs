@@ -4,6 +4,7 @@
     </head>
 
     <body>
+        <% if(locals.user) {%>
         <h1>Enter your job details</h1>
         <form action="/users/create_job" method="POST">
             <div id="one_job">
@@ -44,6 +45,15 @@
                 <input type="number" name="pin" id="pin" placeholder="Pincode">
             </div>
             <button type="submit">Submit</button>
+            <%} else {%>
+
+                <h1>
+                    Hey you are not signed in!!!
+                    <button><a href="/users/sign-in">CLICK HERE</a></button>
+                    to Sign in
+                </h1>
+
+                <%}%>
         </form>
     </body>
 </html>

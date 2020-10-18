@@ -114,3 +114,9 @@ module.exports.create_job = function(req,res){
         return res.redirect('/users/profile');
     });
 }
+
+module.exports.expert = function(req,res){
+    return res.render('expert',{
+        title : 'expert',
+    });
+}

@@ -1,0 +1,9 @@
+#expert {
+  width: 500px;
+  height: 300px;
+  background-color: #62b5e6;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }

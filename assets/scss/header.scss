@@ -42,28 +42,3 @@
         }
     }
 }
-
-#jobs{
-    width: 80vw;
-    height: 10vh;
-    background-color: rgb(204, 196, 196);
-    border-radius: 20px;
-    padding:20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    h1{
-        margin:0;
-        padding:0;
-        margin-right: 150px;
-    }
-
-    h3{
-        margin-right: 90px;
-    }
-
-    button{
-        width: 100px;
-        height: 30px;
-    }
-}
